@@ -68,6 +68,7 @@ const User = (props) => {
                 name="terms"
                 checked={values.terms}
                 onChange={onChange}
+                required="required"
               />
             </label>
           </div>
